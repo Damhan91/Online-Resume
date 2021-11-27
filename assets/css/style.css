@@ -38,6 +38,10 @@ h4{
     font-weight: 200;
     color: white;
 }
+
+.inline-block {
+    display: inline-block;
+}
 /*Heading*/
 
 header{
@@ -141,4 +145,39 @@ footer{
     color: white;
     min-height: 120px;
     margin: 0;
+}
+
+.cv-pdf i {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding-left: 5px;
+}
+
+.cv-pdf i:hover{
+    color: rgb(226, 85, 85);
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color:white;
+    background: #8f8f8f;
+}
+
+.social-links li a i:hover {
+    background: rgb(226, 85, 85);
+}
+
+#footer-details {
+    padding: 20px;
 }
